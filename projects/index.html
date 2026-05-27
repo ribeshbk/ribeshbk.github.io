@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Projects · Ribesh Biswakarma BK</title>
+<meta name="description" content="Active projects by Ribesh Biswakarma BK — Magic Masala Group." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter+Tight:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#0c0c0c; --paper:#f6f3ec; --paper-2:#efeae0; --muted:#4a4a4a; --accent:#d94f1e; --rule:rgba(12,12,12,.14); }
+  *{ box-sizing:border-box; } body{ margin:0; background:var(--paper); color:var(--ink); font-family:'Inter Tight',system-ui,sans-serif; font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased; }
+  a{ color:var(--ink); }
+  .wrap{ max-width:840px; margin:0 auto; padding:0 22px; }
+  .top{ border-bottom:1px solid var(--rule); background:rgba(246,243,236,.9); backdrop-filter:blur(10px); position:sticky; top:0; z-index:50; }
+  .top-row{ display:flex; align-items:center; justify-content:space-between; padding:14px 0; }
+  .brand{ font-family:'Fraunces',serif; font-size:19px; font-weight:500; display:flex; align-items:center; gap:10px; text-decoration:none; }
+  .brand-mark{ width:28px; height:28px; border-radius:6px; background:var(--ink); color:var(--paper); display:grid; place-items:center; font-family:'Fraunces',serif; font-style:italic; font-size:16px; }
+  .top nav{ display:flex; gap:18px; font-size:14px; color:var(--muted); }
+  .top nav a{ text-decoration:none; } .top nav a:hover{ color:var(--ink); }
+  header.hero{ padding:64px 0 22px; }
+  .crumb{ font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.14em; color:var(--muted); text-transform:uppercase; margin-bottom:22px; }
+  h1{ font-family:'Fraunces',serif; font-weight:400; font-size:clamp(34px,6vw,52px); line-height:1.04; letter-spacing:-.022em; margin:0 0 14px; }
+  h1 em{ font-style:italic; color:var(--accent); }
+  .lede{ color:var(--muted); margin:0; font-size:18px; max-width:560px; }
+  .proj{ display:grid; gap:18px; padding:30px 0 60px; }
+  .card{ display:block; background:white; padding:28px; border-radius:18px; border:1px solid rgba(12,12,12,.08); text-decoration:none; color:inherit; transition:transform .25s ease, box-shadow .25s ease; }
+  .card:hover{ transform:translateY(-3px); box-shadow:0 14px 32px rgba(0,0,0,.07); }
+  .card .row{ display:flex; align-items:flex-start; gap:18px; justify-content:space-between; flex-wrap:wrap; }
+  .card h2{ font-family:'Fraunces',serif; font-weight:500; font-size:26px; margin:0 0 6px; letter-spacing:-.01em; }
+  .card p{ color:var(--muted); margin:0; font-size:15.5px; }
+  .pill{ font-family:'JetBrains Mono',monospace; font-size:11px; padding:5px 11px; border-radius:999px; letter-spacing:.12em; text-transform:uppercase; background:var(--paper-2); color:var(--ink); flex:none; }
+  .pill.live{ background:var(--accent); color:white; }
+  .meta{ display:flex; flex-wrap:wrap; gap:14px; font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin-top:20px; padding-top:18px; border-top:1px solid var(--rule); }
+  footer{ padding:30px 0 60px; border-top:1px solid var(--rule); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="wrap top-row">
+    <a class="brand" href="/"><span class="brand-mark">R</span> Ribesh Biswakarma BK</a>
+    <nav>
+      <a href="/">Profile</a>
+      <a href="/flowiq/">FlowIQ</a>
+      <a href="/projects/">Projects</a>
+    </nav>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="crumb">Projects index</div>
+    <h1>Things I'm <em>building</em>.</h1>
+    <p class="lede">A working log of active projects under the Magic Masala Group umbrella — early-stage, partner-reviewed, mostly Bay Area focused.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="proj">
+    <a class="card" href="/projects/ai-automation.html">
+      <div class="row">
+        <div>
+          <h2>FlowIQ — AI Automation Micro-Agency</h2>
+          <p>A 4-person studio replacing the boring parts of running a small business with reliable AI. $1.5K–$2.5K monthly retainers, Bay Area SMBs.</p>
+        </div>
+        <span class="pill live">Live · accepting clients</span>
+      </div>
+      <div class="meta">
+        <span>4-person team</span>
+        <span>Recurring revenue</span>
+        <span>Bay Area</span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">© 2026 Ribesh Biswakarma BK · Magic Masala Group · <a href="/">Back to profile</a></div>
+</footer>
+
+</body>
+</html>
